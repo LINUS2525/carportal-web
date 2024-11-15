@@ -14,7 +14,7 @@ const CreateJob = () => {
 
   const onSubmit = (data) => {
     // console.log(data);
-    fetch("http://localhost:5000/post-job", {
+    fetch("https://carportal-web.onrender.com/post-job", {
       method: "POST",
       headers: {'content-type': 'application/json'},
       body: JSON.stringify(data)

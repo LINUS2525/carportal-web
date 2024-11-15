@@ -26,7 +26,7 @@ const UpdateJob = () => {
   } = useForm();
   const onSubmit = (data) => {
     // console.log(data);
-    fetch(`http://localhost:5000/update-job/${id}`, {
+    fetch(`https://carportal-web.onrender.com/update-job/${id}`, {
       method: "PATCH",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),

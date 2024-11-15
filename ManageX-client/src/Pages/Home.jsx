@@ -14,7 +14,7 @@ const Home = () => {
 
   useEffect(() => {
     setIsLoading(true);
-    fetch("http://localhost:5000/all-jobs")
+    fetch("https://carportal-web.onrender.com/all-jobs")
       .then((res) => res.json())
       .then((data) => {
         //console.log(data)
