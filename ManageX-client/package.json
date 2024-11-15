@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "eslint.config.js",
   "dependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
     "acorn": "^8.12.1",
     "acorn-jsx": "^5.3.2",
     "ajv": "^6.12.6",
@@ -327,5 +328,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "4.9.5"
+  }
 }
